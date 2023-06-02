@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data</title>
+    <style> 
+        body {
+            margin:40px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Data</h1>
+    <h3>Titles:</h3>
+    <ul>{% for item in data %}
+        <li> <p>{{ item.title }}</p> </li> 
+    {% endfor %} </ul>
+</body>
+</html>
